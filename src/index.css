@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+.my-active {
+    color: red !important;
+    background-color: white !important;
+}
+
+a:hover {
+    background-color: rgb(151, 199, 238);
+    text-decoration: underline;
+}
+
+/* a:not(.my-active):hover {
+    background-color: aqua;
+    text-decoration: underline;
+} */
