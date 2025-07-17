@@ -4,6 +4,10 @@ const navLinks = [
         path: "/"
     },
     {
+        name: "Form Validation",
+        path: "form-validation"
+    },
+    {
         name: "List Movies",
         path: "list-movie"
     },

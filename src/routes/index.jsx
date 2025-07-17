@@ -1,5 +1,6 @@
 import HomeTemplate from "../pages/HomeTemplate";
 import HomePage from "../pages/HomeTemplate/HomePage";
+import FormValidationPage from "../pages/HomeTemplate/FormValidationPage";
 import AboutPage from "../pages/HomeTemplate/AboutPage";
 import ListMoviePage from "../pages/HomeTemplate/ListMoviePage";
 import NewsPage from "../pages/HomeTemplate/NewsPage";
@@ -11,7 +12,7 @@ import Dashboard from "../pages/AdminTemplate/Dashboard";
 import AddUserPage from "../pages/AdminTemplate/AddUserPage";
 import AuthPage from "../pages/AdminTemplate/AuthPage";
 
-import { Route } from "react-router-dom";
+import { Form, Route } from "react-router-dom";
 
 const routes = [
     {
@@ -21,6 +22,10 @@ const routes = [
             {
                 path: "",
                 element: HomePage
+            },
+            {
+                path: "form-validation",
+                element: FormValidationPage
             },
             {
                 path: "list-movie",
