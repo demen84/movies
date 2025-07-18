@@ -7,6 +7,7 @@ export default function HomeTemplate() {
         <div>
             <Header />
             <Outlet />
+            <br />
             <Footer />
         </div>
     );

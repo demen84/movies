@@ -1,4 +1,5 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
+import listMovieSlice from "../pages/HomeTemplate/ListMoviePage/slice";
 
 const studentsSlice = createSlice({
     name: 'students',
@@ -41,7 +42,7 @@ const studentsSlice = createSlice({
         // Có thể thêm reducer cho xóa nếu muốn
         deleteStudent: (state, action) => {
             state.list = state.list.filter(student => student.id !== action.payload);
-        }
+        },
     },
 });
 
@@ -50,5 +51,6 @@ export const { addStudent, updateStudent, deleteStudent } = studentsSlice.action
 export const store = configureStore({
     reducer: {
         students: studentsSlice.reducer,
+        listMovieSlice,
     }
 });
