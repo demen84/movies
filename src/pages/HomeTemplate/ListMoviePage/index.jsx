@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
-import Movie from "./movie";
+// import axios from 'axios';
+import Movie from "./Movie";
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchListMovie } from "./slice";
 
