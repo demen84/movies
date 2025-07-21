@@ -373,9 +373,7 @@ export default function FormValidationPage() {
                             </tr>
                         )}
                     </tbody>
-                    <tfoot>
-                        {/* Chưa có phần tfooter */}
-                    </tfoot>
+
                 </table>
             </div>
         </div>

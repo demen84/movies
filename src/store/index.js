@@ -51,7 +51,7 @@ const studentsSlice = createSlice({
                 existingStudent.email = email;
             }
         },
-        // Có thể thêm reducer cho xóa nếu muốn
+        // Có thể thêm reducer cho xóa (nếu muốn)
         deleteStudent: (state, action) => {
             state.list = state.list.filter(student => student.id !== action.payload);
         },
