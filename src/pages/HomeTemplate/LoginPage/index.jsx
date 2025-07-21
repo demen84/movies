@@ -1,4 +1,5 @@
-
+import React from "react";
+// import "./style.css";
 
 export default function LoginPage() {
     return (
@@ -26,5 +27,25 @@ export default function LoginPage() {
 
 
         </div>
+
+        // <div>
+        //     <div className="background">
+        //         <div className="shape" />
+        //         <div className="shape" />
+        //     </div>
+        //     <form action>
+        //         <h3>Login Here</h3>
+        //         <label htmlFor="username">User Name</label>
+        //         <input type="text" placeholder="Email or Phone" id="username" />
+        //         <label htmlFor="password">Password</label>
+        //         <input type="password" placeholder="Password" id="password" />
+        //         <button>Log In</button>
+        //         <div className="social">
+        //             <div className="go"><i className="fa-brands fa-google" /> Google</div>
+        //             <div className="fb"><i className="fa-brands fa-facebook" /> Facebook</div>
+        //         </div>
+        //     </form>
+        // </div>
+
     )
 }

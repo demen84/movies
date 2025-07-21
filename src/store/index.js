@@ -22,6 +22,18 @@ const studentsSlice = createSlice({
                 name: 'Lương Trung Tín',
                 phone: '0913289647',
                 email: 'trungtin.luong@gmail.com'
+            },
+            {
+                id: 'SV004',
+                name: 'Lý Quốc Toàn',
+                phone: '0387973119',
+                email: 'ly.quoctoan90@yahoo.com.vn'
+            },
+            {
+                id: 'SV005',
+                name: 'Trần Quốc Tuấn',
+                phone: '0903167269',
+                email: 'quoctuan_tran@yahoo.com'
             }
         ],
     },
@@ -50,7 +62,7 @@ export const { addStudent, updateStudent, deleteStudent } = studentsSlice.action
 
 export const store = configureStore({
     reducer: {
-        students: studentsSlice.reducer,
-        listMovieSlice,
+        students: studentsSlice.reducer, //R thứ 1
+        listMovieSlice, //R thứ 2
     }
 });
