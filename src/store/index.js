@@ -15,7 +15,7 @@ const studentsSlice = createSlice({
                 id: 'SV002',
                 name: 'Huỳnh Tấn Phát',
                 phone: '0908596789',
-                email: 'huynhtanphat@gmail.com'
+                email: 'huynhtanphat@hotmail.com'
             },
             {
                 id: 'SV003',
@@ -24,16 +24,10 @@ const studentsSlice = createSlice({
                 email: 'trungtin.luong@gmail.com'
             },
             {
-                id: 'SV004',
-                name: 'Lý Quốc Toàn',
-                phone: '0387973119',
-                email: 'ly.quoctoan90@yahoo.com.vn'
-            },
-            {
                 id: 'SV005',
-                name: 'Trần Quốc Tuấn',
-                phone: '0903167269',
-                email: 'quoctuan_tran@yahoo.com'
+                name: 'Lý Quốc Toàn Năng',
+                phone: '0379678912',
+                email: 'toannang.ly@yahoo.com'
             }
         ],
     },
@@ -51,10 +45,10 @@ const studentsSlice = createSlice({
                 existingStudent.email = email;
             }
         },
-        // Có thể thêm reducer cho xóa (nếu muốn)
+        // Có thể thêm reducer cho xóa nếu muốn
         deleteStudent: (state, action) => {
             state.list = state.list.filter(student => student.id !== action.payload);
-        },
+        }
     },
 });
 
@@ -64,5 +58,6 @@ export const store = configureStore({
     reducer: {
         students: studentsSlice.reducer, //R thứ 1
         listMovieSlice, //R thứ 2
+        //R thứ n
     }
 });

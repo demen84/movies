@@ -2,6 +2,20 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
+@source "../node_modules/flowbite-datepicker";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Tùy chỉnh CSS bổ sung nếu cần */
+@layer components {
+    /* Ví dụ: thêm các class tùy chỉnh */
+}
+
+/* Import theme của Flowbite nếu cần */
+/* @import "flowbite/dist/flowbite.css"; */
+/* Nếu bạn dùng Flowbite từ node_modules */
 
 
 .my-active {

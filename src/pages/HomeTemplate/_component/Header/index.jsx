@@ -29,48 +29,6 @@ export default function Header() {
                                 </li>
                             ))
                         }
-
-                        {/* <li>
-                            <NavLink to="/"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}
-                                aria-current="page">
-                                Home
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="list-movie"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}>
-                                List Movies
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="news"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}>
-                                News
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="about"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}>
-                                About
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="login"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}>
-                                Login
-                            </NavLink>
-                        </li><li>
-                            <NavLink
-                                to="register"
-                                className={({ isActive }) => isActive ? "my-active" : "block py-2 px-3 rounded-sm md:bg-transparent md:p-0 dark:text-white"}>
-                                Register
-                            </NavLink>
-                        </li> */}
                     </ul>
                 </div>
             </div>

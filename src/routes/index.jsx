@@ -3,6 +3,7 @@ import HomePage from "../pages/HomeTemplate/HomePage";
 import FormValidationPage from "../pages/HomeTemplate/FormValidationPage";
 import AboutPage from "../pages/HomeTemplate/AboutPage";
 import ListMoviePage from "../pages/HomeTemplate/ListMoviePage";
+import MovieDetailPage from "../pages/HomeTemplate/MovieDetailPage";
 import NewsPage from "../pages/HomeTemplate/NewsPage";
 import LoginPage from "../pages/HomeTemplate/LoginPage";
 import RegisterPage from "../pages/HomeTemplate/RegisterPage";
@@ -11,6 +12,8 @@ import AdminTemplate from "../pages/AdminTemplate";
 import Dashboard from "../pages/AdminTemplate/Dashboard";
 import AddUserPage from "../pages/AdminTemplate/AddUserPage";
 import AuthPage from "../pages/AdminTemplate/AuthPage";
+import MovieManagement from "../pages/AdminTemplate/MovieManagement";
+import AddMovie from "../pages/AdminTemplate/AddMovie";
 
 import { Form, Route } from "react-router-dom";
 
@@ -30,6 +33,10 @@ const routes = [
             {
                 path: "list-movie",
                 element: ListMoviePage
+            },
+            {
+                path: "movie-detail/:movieId",
+                element: MovieDetailPage
             },
             {
                 path: "about",
@@ -60,6 +67,14 @@ const routes = [
             {
                 path: "add-user",
                 element: AddUserPage
+            },
+            {
+                path: "movies-management",
+                element: MovieManagement
+            },
+            {
+                path: "movies-management/add-movie",
+                element: AddMovie
             }
         ]
     },
