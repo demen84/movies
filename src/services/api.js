@@ -1,15 +1,5 @@
 import axios from 'axios';
 
-// axios({
-//     method: "",
-//     url: "",
-//     data: "",
-//     responseType: "",
-//     headers: { },
-//     timeout: "",
-//     responseType: "",
-// })
-
 const api = axios.create({
     baseURL: "https://movienew.cybersoft.edu.vn/api/"
 });

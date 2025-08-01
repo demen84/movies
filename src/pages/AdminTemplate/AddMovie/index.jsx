@@ -25,8 +25,8 @@ const schema = z.object({
         ),
     trangThai: z.string().optional(),
     Hot: z.boolean().optional(),
-    maNhom: z.string().optional("GP01"),
-    danhGia: z.string().nonempty("Bạn chưa nhập đánh gái").regex(/^(?:[0-9](?:\.\d+)?|10(?:\.0+)?)$/gm, "Vui lòng nhập từ 0 -> 10"),
+    maNhom: z.string().optional("GP02"),
+    danhGia: z.string().nonempty("Bạn chưa nhập đánh giá").regex(/^(?:[0-9](?:\.\d+)?|10(?:\.0+)?)$/gm, "Vui lòng nhập từ 0 -> 10"),
     hinhAnh: z.any(),
 });
 
